@@ -1,0 +1,13 @@
+.features{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.features__title{
+    font-size: 2rem;
+    font-weight: 500;
+}
