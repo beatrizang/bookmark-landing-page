@@ -1,0 +1,41 @@
+.header{
+    align-items: center;
+    color: var(--darkish-blue);
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 3rem;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+}
+
+.menu__item{
+    cursor: pointer;
+    margin-left: 3rem;
+}
+
+.menu__item:hover{
+    color: var(--soft-red);
+}
+
+.menu__login{
+    background: var(--soft-red);
+    border: 2px solid var(--soft-red);
+    border-radius: 0.3rem;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 0.7rem 1.5rem;
+    transition: all 0.3s linear;
+
+    box-shadow: 0px 6px 17px -4px rgba(0,0,0,0.1);
+-webkit-box-shadow: 0px 6px 17px -4px rgba(0,0,0,0.1);
+-moz-box-shadow: 0px 6px 17px -4px rgba(0,0,0,0.1);
+}
+
+.menu__login:hover{
+    background: white;
+    color: var(--soft-red);
+}
