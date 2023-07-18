@@ -1,0 +1,97 @@
+.extensions{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.extensions__text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.extensions__title{
+    color: var(--very-dark-blue);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.extensions__para{
+    color: var(--grayish-blue);
+    line-height: 1.5rem;
+    padding: 2rem 0;
+    width: 70%;
+}
+
+.extensions__browsers{
+    display: flex;
+}
+
+.extensions__browser{
+    align-items: center;
+    background-image: url('../../images/bg-dots.svg');
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    margin-right: 2rem;
+    padding: 2rem;
+    text-align: center;
+
+    box-shadow: 0px 6px 17px -4px rgba(0, 0, 0, 0.31);
+    -webkit-box-shadow: 0px 6px 17px -4px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 0px 6px 17px -4px rgba(0, 0, 0, 0.31);
+}
+
+.extensions__browser__title{
+    color: var(--very-dark-blue);
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 2rem 0 1rem 0;
+}
+
+.extensions__browser__version{
+    color: var(--grayish-blue);
+    padding-bottom: 3rem;
+}
+
+.extensions__browser__button{
+    background: var(--soft-blue);
+    border-radius: 0.3rem;
+    border: 2px solid var(--soft-blue);
+    color: aliceblue;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+}
+
+.extensions__browser__button:hover{
+    background: white;
+    color: var(--soft-blue);
+}
+
+.extension__firefox{
+    margin-top: 2rem;
+}
+
+.extension__opera{
+    margin-top: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
