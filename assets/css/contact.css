@@ -1,6 +1,51 @@
 .contact{
     background: var(--soft-blue);
+    color: white;
     margin-top: 2rem;
     text-align: center;
-    padding: 2rem 0;
+    padding: 5rem 0;
+}
+
+.contact__number{
+    font-size: 0.7rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+.contact__title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.contact__form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact__email{
+    border-radius: 5px;
+    color: var(--very-dark-blue);
+    height: 40px;
+    padding: 0.1rem 1rem;
+    outline: none;
+}
+
+.contact__button{
+    align-items: center;
+    background: var(--soft-red);
+    border-radius: 5px;
+    border: 2px solid var(--soft-red);
+    cursor: pointer;
+    height: 45px;
+    margin-left: 1rem;
+    padding: 0.1rem 1rem;
+}
+
+.contact__button:hover{
+    background: white;
+    color: var(--soft-red);
 }
