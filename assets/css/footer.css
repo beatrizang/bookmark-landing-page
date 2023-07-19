@@ -1,0 +1,42 @@
+.footer{
+    align-items: center;
+    background: var(--very-dark-blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+.footer__left{
+    align-items: center;
+    display: flex;
+}
+
+.footer__menu{
+    align-items: center;
+    color: aliceblue;
+    font-size: 1rem;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.footer__menu__item{
+    margin-right: 1.5rem;
+}
+
+.footer__menu__item:hover{
+    color: var(--soft-red);
+}
+
+.footer__right{
+    align-items: center;
+}
+
+.footer__icon{
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.footer__icon:hover{
+    color: var(--soft-red);
+}
