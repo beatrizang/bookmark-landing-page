@@ -50,6 +50,29 @@
     border: 2px solid var(--darkish-blue);
 }
 
+@media screen and (max-width: 768px) {
+    .intro{
+        justify-content: center;
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .intro__title{
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    .intro__para{
+        width: 90%;
+    }
+
+    .intro__img{
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .intro{
         justify-content: center;

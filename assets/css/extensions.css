@@ -84,6 +84,31 @@
     margin-top: 4rem;
 }
 
+@media screen and (max-width: 768px) {
+
+    .extensions{
+        padding: 1rem;
+    }
+
+    .extensions__para{
+        padding: 1rem 0;
+        width: 90%;
+    }
+
+    .extensions__browsers{
+        flex-direction: column;
+    }
+
+    .extensions__browser{
+        margin-right: 0rem;
+    }
+
+    .extension__opera{
+        margin: 2rem 0;
+    }
+    
+}
+
 
 @media screen and (max-width: 375px) {
 
