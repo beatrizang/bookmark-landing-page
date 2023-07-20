@@ -49,3 +49,59 @@
     background: white;
     color: var(--soft-red);
 }
+
+@media screen and (max-width: 768px) {
+    .contact{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact__title{
+        width: 95%;
+    }
+
+    .contact__form{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact__email{
+        width: 300px;
+    }
+
+    .contact__button{
+        margin-top: 1rem;
+        margin-left: 0;
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .contact{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact__title{
+        width: 95%;
+    }
+
+    .contact__form{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact__email{
+        width: 300px;
+    }
+
+    .contact__button{
+        margin-top: 1rem;
+        margin-left: 0;
+        width: 330px;
+    }
+}

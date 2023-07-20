@@ -57,7 +57,25 @@
     padding: 0.8rem 1rem;
 }
 
+@media screen and (max-width: 768px) {
+    .questions__para{
+        width: 80%;
+    }
 
+    .listquestions{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .questions__para{
+        width: 90%;
+    }
+
+    .listquestions{
+        width: 80%;
+    }
+}
 
 
 

@@ -41,3 +41,30 @@
 .footer__icon:hover{
     color: var(--soft-red);
 }
+
+@media screen and (max-width: 375px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 0;
+    }
+
+    .footer__left{
+        flex-direction: column;
+    }
+
+    
+    .footer__menu{
+        flex-direction: column;
+        margin: 2rem 0;
+    }
+
+    .footer__menu__item{
+        margin: 1rem 0;
+    }
+
+    .footer__icon{
+        margin: 0 1rem;
+    }
+}
