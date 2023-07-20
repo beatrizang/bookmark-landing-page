@@ -84,7 +84,7 @@
         color: white;
         left: 0;
         top: 0;
-        display: flex;
+        display: none;
         padding-top: 3rem;
         position: fixed;
         height: 110vh;
@@ -139,7 +139,7 @@
         color: white;
         left: 0;
         top: 0;
-        display: flex;
+        display: none;
         padding-top: 3rem;
         position: fixed;
         height: 110vh;
