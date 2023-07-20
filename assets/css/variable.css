@@ -5,6 +5,8 @@
     --soft-red: hsl(0, 94%, 66%);
     --soft-red-shadow: hsla(0, 100%, 82%, 0.495);
     --grayish-blue-light: hsl(0, 0%, 95%);
+    --grayish-transparent: rgba(255, 255, 255, 0.437);
+    --grayish-transparent-2: rgba(187, 187, 187, 0.692);
     --grayish-blue: hsl(229, 8%, 60%);
     --darkish-blue: hsl(228, 3%, 33%);
     --very-dark-blue: hsl(229, 31%, 21%);

@@ -36,13 +36,18 @@
 }
 
 .features__menu{
+    align-items: center;
+    border-bottom: 1px solid var(--grayish-transparent-2);
     color: var(--grayish-blue);
     display: flex;
+    padding-bottom: 1rem;
 }
 
 .features__menu__item{
     cursor: pointer;
-    margin-left: 1rem;
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    font-weight: 400;
 }
 
 .features__menu__item:hover{
