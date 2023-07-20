@@ -1,13 +1,16 @@
+//MENU
 let btnMenu = document.getElementById('btn-menu');
 let btnClose = document.getElementById('btn-close');
 let nav = document.getElementById('nav');
 let show = false;
-let btnSend = document.getElementById('contact-send');
 
+//ERROR EMAIL
+let btnSend = document.getElementById('contact-send');
 let emailError = document.getElementById('email__error');
 let contactEmailError = document.getElementById('contact__email__error');
 let emailFormat = "Whoops, make sure it's an email";
 
+//QUESTIONS
 let question1 = document.getElementById('question1');
 let answer1 = document.getElementById('answer1');
 let showAnswer1 = false;
@@ -23,6 +26,35 @@ let showAnswer3 = false;
 let question4 = document.getElementById('question4');
 let answer4 = document.getElementById('answer4');
 let showAnswer4 = false;
+
+//FEATURES
+let btnBookmark = document.getElementById('btn-bookmark');
+let bookmark = document.getElementById('bookmark');
+
+let btnIntelligent = document.getElementById('btn-intelligent');
+let intelligent = document.getElementById('intelligent');
+
+let btnShare = document.getElementById('btn-share');
+let share = document.getElementById('share');
+
+
+btnBookmark.addEventListener('click',()=>{
+    bookmark.style.display = 'flex';
+    intelligent.style.display = 'none';
+    share.style.display = 'none';
+});
+
+btnIntelligent.addEventListener('click',()=>{
+    bookmark.style.display = 'none';
+    intelligent.style.display = 'flex';
+    share.style.display = 'none';
+});
+
+btnShare.addEventListener('click',()=>{
+    bookmark.style.display = 'none';
+    intelligent.style.display = 'none';
+    share.style.display = 'flex';
+});
 
 
 

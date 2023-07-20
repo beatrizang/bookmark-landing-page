@@ -5,9 +5,6 @@
     justify-content: center;
 }
 
-.questions__title{
-    margin-bottom: 2rem;
-}
 
 .questions__title{
     color: var(--very-dark-blue);
