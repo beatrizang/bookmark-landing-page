@@ -187,8 +187,11 @@
       <p class="contact__number">35,000+ already joined</p>
       <p class="contact__title">Stay up-to-date with what <br> we’re doing</p>
       <form class="contact__form">
-        <input class="contact__email" type="email" placeholder="Enter your email address">
-        <input class="contact__button" type="button" value="Contact Us">
+        <div id="contact__email__error">
+          <input id="contact__email" class="contact__email" type="email" placeholder="Enter your email address">
+          <p id="email__error"></p>
+        </div>
+        <input id="contact-send" class="contact__button" type="button" value="Contact Us">
       </form>
     </section>
   </main>

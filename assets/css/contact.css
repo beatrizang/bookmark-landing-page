@@ -21,9 +21,14 @@
 }
 
 .contact__form{
-    align-items: center;
+    align-items:flex-start;
     display: flex;
     justify-content: center;
+}
+
+#contact__email__error{
+    background: var(--soft-red);
+    border-radius: 5px;
 }
 
 .contact__email{
@@ -32,6 +37,13 @@
     height: 40px;
     padding: 0.1rem 1rem;
     outline: none;
+}
+
+#email__error{
+    display: none;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
+    text-align: left;
 }
 
 .contact__button{
@@ -49,6 +61,8 @@
     background: white;
     color: var(--soft-red);
 }
+
+
 
 @media screen and (max-width: 768px) {
     .contact{
