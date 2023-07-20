@@ -8,6 +8,22 @@ let emailError = document.getElementById('email__error');
 let contactEmailError = document.getElementById('contact__email__error');
 let emailFormat = "Whoops, make sure it's an email";
 
+let question1 = document.getElementById('question1');
+let answer1 = document.getElementById('answer1');
+let showAnswer1 = false;
+
+let question2 = document.getElementById('question2');
+let answer2 = document.getElementById('answer2');
+let showAnswer2 = false;
+
+let question3 = document.getElementById('question3');
+let answer3 = document.getElementById('answer3');
+let showAnswer3 = false;
+
+let question4 = document.getElementById('question4');
+let answer4 = document.getElementById('answer4');
+let showAnswer4 = false;
+
 
 
 btnSend.addEventListener('click', ()=>{
@@ -53,6 +69,64 @@ btnClose.addEventListener('click', ()=>{
     else{
         nav.style.display = 'flex';
         show = true;
+    }
+});
+
+function showAnswer(answer,showAnswer){
+    if(!showAnswer){
+        answer.style.display = 'none';
+    }
+    
+    else{
+        answer.style.display = 'flex';
+    }
+}
+
+question1.addEventListener('click',()=>{
+    if(!showAnswer1){
+        answer1.style.display = 'none';
+        showAnswer1 = true;
+    }
+    
+    else{
+        answer1.style.display = 'flex';
+        showAnswer1 = false;
+    }
+});
+
+question2.addEventListener('click',()=>{
+    if(!showAnswer2){
+        answer2.style.display = 'none';
+        showAnswer2 = true;
+    }
+    
+    else{
+        answer2.style.display = 'flex';
+        showAnswer2 = false;
+    }
+});
+
+question3.addEventListener('click',()=>{
+    if(!showAnswer3){
+        answer3.style.display = 'none';
+        showAnswer3 = true;
+    }
+    
+    else{
+        answer3.style.display = 'flex';
+        showAnswer3 = false;
+    }
+});
+
+question4.addEventListener('click',()=>{
+    if(!showAnswer4){
+        answer4.style.display = 'none';
+        showAnswer4 = true;
+    }
+    
+    else{
+        answer4.style.display = 'flex';
+        showAnswer4 = false;
     }
 });
 
