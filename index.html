@@ -23,14 +23,21 @@
 <body>
   <header class="header">
     <img src="./images/logo-bookmark.svg" alt="logo bookmark">
-    
-    <nav class="nav">
+    <nav id="nav" class="nav">
+      <div class="nav__logo__mobile">
+        <img class="nav__logo" src="./images/logo-bookmark-white.svg" alt="logo bookmark">
+        <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
       <ul class="menu">
         <li class="menu__item"><a href="#">Features</a></li>
         <li class="menu__item"><a href="#">Pricing</a></li>
-        <li class="menu__item"><a href="#">Contact</a></li>
+        <li class="menu__item menu__contact"><a href="#">Contact</a></li>
         <li class="menu__item menu__login"><a href="#">Login</a></li>
       </ul>
+      <div class="footer__right nav__social">
+        <a class="footer__icon" href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a class="footer__icon" href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
     </nav>
     <button id="btn-menu"><i class="fa-solid fa-bars"></i></button>
   </header>
@@ -199,5 +206,6 @@
       <a class="footer__icon" href="#"><i class="fa-brands fa-twitter"></i></a>
     </div>
   </footer>
+  <script src="./assets/js/index.js"></script>
 </body>
 </html>

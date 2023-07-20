@@ -8,6 +8,7 @@
     --grayish-blue: hsl(229, 8%, 60%);
     --darkish-blue: hsl(228, 3%, 33%);
     --very-dark-blue: hsl(229, 31%, 21%);
+    --very-dark-blue-menu: hsla(231, 71%, 11%, 0.821);
 
     --ff-rubik: 'Rubik', sans-serif;
 }

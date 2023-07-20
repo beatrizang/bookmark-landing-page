@@ -45,12 +45,34 @@
     font-size: 1.5rem;
 }
 
+#btn-close{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.nav__logo__mobile{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.nav__logo{
+    margin-left: -1rem;
+    width: 140px;
+}
+
+.nav__social{
+    margin-top: 7rem;
+}
+
 @media screen and (max-width: 768px) {
     #btn-menu{
         display: flex;
     }
 
-    .menu{
+    .nav{
         display: none;
     }
 }
@@ -60,7 +82,48 @@
         display: flex;
     }
 
+    .nav{
+        align-items: center;
+        background: var(--very-dark-blue-menu);
+        flex-direction: column;
+        color: white;
+        left: 0;
+        top: 0;
+        display: flex;
+        padding-top: 3rem;
+        position: fixed;
+        height: 110vh;
+        width: 100%;
+    }
+
     .menu{
-        display: none;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .menu__item{
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.437);
+        padding: 1rem 0;
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .menu__contact{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.437);
+    }
+
+    .menu__login{
+        align-items: center;
+        background: transparent;
+        border: 2px solid white;
+        color: aliceblue;
+        margin-top: 1rem;
+        padding: auto;
+        text-align: center;
+        width: 250px;
     }
 }
