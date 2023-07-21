@@ -46,18 +46,27 @@ btnBookmark.addEventListener('click',()=>{
     bookmark.style.display = 'flex';
     intelligent.style.display = 'none';
     share.style.display = 'none';
+    btnBookmark.style.color = 'var(--darkish-blue)';
+    btnIntelligent.style.color = 'var(--grayish-blue)';
+    btnShare.style.color = 'var(--grayish-blue)';
 });
 
 btnIntelligent.addEventListener('click',()=>{
     bookmark.style.display = 'none';
     intelligent.style.display = 'flex';
     share.style.display = 'none';
+    btnBookmark.style.color = 'var(--grayish-blue)';
+    btnIntelligent.style.color = 'var(--darkish-blue)';
+    btnShare.style.color = 'var(--grayish-blue)';
 });
 
 btnShare.addEventListener('click',()=>{
     bookmark.style.display = 'none';
     intelligent.style.display = 'none';
     share.style.display = 'flex';
+    btnBookmark.style.color = 'var(--grayish-blue)';
+    btnIntelligent.style.color = 'var(--grayish-blue)';
+    btnShare.style.color = 'var(--darkish-blue)';
 });
 
 
