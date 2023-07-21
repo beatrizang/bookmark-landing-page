@@ -13,19 +13,23 @@ let emailFormat = "Whoops, make sure it's an email";
 //QUESTIONS
 let question1 = document.getElementById('question1');
 let answer1 = document.getElementById('answer1');
-let showAnswer1 = false;
+let questionArrow1 = document.getElementById('question__arrow1');
+let showAnswer1 = true;
 
 let question2 = document.getElementById('question2');
 let answer2 = document.getElementById('answer2');
-let showAnswer2 = false;
+let questionArrow2 = document.getElementById('question__arrow2');
+let showAnswer2 = true;
 
 let question3 = document.getElementById('question3');
 let answer3 = document.getElementById('answer3');
-let showAnswer3 = false;
+let questionArrow3 = document.getElementById('question__arrow3');
+let showAnswer3 = true;
 
 let question4 = document.getElementById('question4');
 let answer4 = document.getElementById('answer4');
-let showAnswer4 = false;
+let questionArrow4 = document.getElementById('question__arrow4');
+let showAnswer4 = true;
 
 //FEATURES
 let btnBookmark = document.getElementById('btn-bookmark');
@@ -117,11 +121,13 @@ function showAnswer(answer,showAnswer){
 question1.addEventListener('click',()=>{
     if(!showAnswer1){
         answer1.style.display = 'none';
+        questionArrow1.style.transform = 'rotate(0deg)';
         showAnswer1 = true;
     }
     
     else{
         answer1.style.display = 'flex';
+        questionArrow1.style.transform = 'rotate(180deg)';
         showAnswer1 = false;
     }
 });
@@ -129,11 +135,13 @@ question1.addEventListener('click',()=>{
 question2.addEventListener('click',()=>{
     if(!showAnswer2){
         answer2.style.display = 'none';
+        questionArrow2.style.transform = 'rotate(0deg)';
         showAnswer2 = true;
     }
     
     else{
         answer2.style.display = 'flex';
+        questionArrow2.style.transform = 'rotate(180deg)';
         showAnswer2 = false;
     }
 });
@@ -141,11 +149,13 @@ question2.addEventListener('click',()=>{
 question3.addEventListener('click',()=>{
     if(!showAnswer3){
         answer3.style.display = 'none';
+        questionArrow3.style.transform = 'rotate(0deg)';
         showAnswer3 = true;
     }
     
     else{
         answer3.style.display = 'flex';
+        questionArrow3.style.transform = 'rotate(180deg)';
         showAnswer3 = false;
     }
 });
@@ -153,11 +163,13 @@ question3.addEventListener('click',()=>{
 question4.addEventListener('click',()=>{
     if(!showAnswer4){
         answer4.style.display = 'none';
+        questionArrow4.style.transform = 'rotate(0deg)';
         showAnswer4 = true;
     }
     
     else{
         answer4.style.display = 'flex';
+        questionArrow4.style.transform = 'rotate(180deg)';
         showAnswer4 = false;
     }
 });

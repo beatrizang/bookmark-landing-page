@@ -33,6 +33,10 @@
     padding: 1rem 0;
 }
 
+.question__button{
+    transition: all 0.3s linear;
+}
+
 .question__title{
     color: var(--darkish-blue);
     font-weight: 400;
