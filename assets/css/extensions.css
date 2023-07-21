@@ -125,12 +125,13 @@
         flex-direction: column;
     }
 
-    .extensions__browser{
-        margin-right: 0rem;
-    }
 
     .extension__opera{
         margin: 2rem 0;
+    }
+
+    .extensions__browser{
+        margin-right: 0rem;
     }
     
 }

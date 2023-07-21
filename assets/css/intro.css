@@ -41,7 +41,6 @@
 
 .intro__buton__gray{
     background: var(--grayish-blue-light);
-    
     color: var(--darkish-blue);
 }
 
@@ -90,6 +89,8 @@
     .intro__para{
         width: 90%;
     }
+
+
 
     .intro__img{
         width: 80%;

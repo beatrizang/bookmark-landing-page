@@ -136,6 +136,10 @@
         display: flex;
     }
 
+    .header__logo{
+        width: 150px;
+    }
+
     .nav{
         align-items: center;
         background: var(--very-dark-blue-menu);
