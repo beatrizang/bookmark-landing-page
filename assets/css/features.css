@@ -100,7 +100,7 @@
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
     .features__text{
         text-align: center;
     }
@@ -113,16 +113,20 @@
     .features__menu{
         flex-direction: column;
         line-height: 3rem;
+        margin-top: 2rem;
+        padding-bottom: 0;
+        width: 80%;
     }
     
     .features__menu__item{
-        border-top: 2px solid var(--grayish-blue);
+        border-top: 1px solid var(--grayish-transparent-2);
+        width: 100%;
     }
 
     .features__item__text{
         padding-top: 2rem;
         text-align: center;
-        width: 90%;
+        width: 100%;
     }
 
     .features__item{
