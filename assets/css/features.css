@@ -40,7 +40,6 @@
     border-bottom: 1px solid var(--grayish-transparent-2);
     color: var(--grayish-blue);
     display: flex;
-    padding-bottom: 1rem;
 }
 
 .features__menu__item{
@@ -48,10 +47,12 @@
     font-size: 1.1rem;
     margin: 0 1rem;
     font-weight: 400;
+    padding-bottom: 1rem;
 }
 
 .features__menu__item:hover{
     color: var(--soft-red);
+    border-bottom: 2px solid var(--soft-red);
 }
 
 .features__items{

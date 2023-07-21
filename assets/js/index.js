@@ -131,12 +131,14 @@ question1.addEventListener('click',()=>{
     if(!showAnswer1){
         answer1.style.display = 'none';
         questionArrow1.style.transform = 'rotate(0deg)';
+        questionArrow1.style.color = 'var(--soft-blue)';
         showAnswer1 = true;
     }
     
     else{
         answer1.style.display = 'flex';
         questionArrow1.style.transform = 'rotate(180deg)';
+        questionArrow1.style.color = 'var(--soft-red)';
         showAnswer1 = false;
     }
 });
@@ -145,12 +147,14 @@ question2.addEventListener('click',()=>{
     if(!showAnswer2){
         answer2.style.display = 'none';
         questionArrow2.style.transform = 'rotate(0deg)';
+        questionArrow2.style.color = 'var(--soft-blue)';
         showAnswer2 = true;
     }
     
     else{
         answer2.style.display = 'flex';
         questionArrow2.style.transform = 'rotate(180deg)';
+        questionArrow2.style.color = 'var(--soft-red)';
         showAnswer2 = false;
     }
 });
@@ -159,12 +163,14 @@ question3.addEventListener('click',()=>{
     if(!showAnswer3){
         answer3.style.display = 'none';
         questionArrow3.style.transform = 'rotate(0deg)';
+        questionArrow3.style.color = 'var(--soft-blue)';
         showAnswer3 = true;
     }
     
     else{
         answer3.style.display = 'flex';
         questionArrow3.style.transform = 'rotate(180deg)';
+        questionArrow3.style.color = 'var(--soft-red)';
         showAnswer3 = false;
     }
 });
@@ -173,12 +179,14 @@ question4.addEventListener('click',()=>{
     if(!showAnswer4){
         answer4.style.display = 'none';
         questionArrow4.style.transform = 'rotate(0deg)';
+        questionArrow4.style.color = 'var(--soft-blue)';
         showAnswer4 = true;
     }
     
     else{
         answer4.style.display = 'flex';
         questionArrow4.style.transform = 'rotate(180deg)';
+        questionArrow4.style.color = 'var(--soft-red)';
         showAnswer4 = false;
     }
 });
